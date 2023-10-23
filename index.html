@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login using firebase</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Lato:wght@400;700&family=Montserrat:wght@200;500;600;700&family=Poppins:wght@300;400&family=Quicksand:wght@300&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div class="container" id="login-div">
+      <h2>Login</h2>
+      <input type="email" class="text-field" placeholder="Enter email" id="login-email" required><br>
+      <input type="password" class="text-field"  placeholder="Enter password" id="login-password"><br>
+      <button id="login-btn"  class="btn-style">Login</button><br>
+      <button id="register-btn" class="an-btn">Don't have an account? REGISTER</button>
+    </div>
+
+    <div class="container" id="register-div">
+        <h2>Register</h2>
+        <input type="password" class="text-field" placeholder="Enter email" id="register-email"><br>
+      <input type="password" class="text-field" placeholder="Enter password" id="register-password"><br>
+      <button id="login-btn"  class="btn-style">REGISTER</button><br>
+      <button id="register-btn" class="an-btn">Already have an account? LOGIN</button>
+    </div>
+
+    <div id="result-box" >
+        <h3 id="result"></h3><br>
+        <button id="log-out-btn" class="btn-style"> LOGIN OUT</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
